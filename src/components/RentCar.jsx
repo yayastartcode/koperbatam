@@ -106,7 +106,7 @@ export default function RentCar() {
                 )}
 
                 <a
-                  href={`https://wa.me/6287821136966?text=${encodeURIComponent(`Halo, saya ingin sewa ${vehicle.name}. Mohon informasinya lebih lanjut. Terima kasih.`)}`}
+                  href={`https://wa.me/6289528820556?text=${encodeURIComponent(`Halo, saya ingin sewa ${vehicle.name}. Mohon informasinya lebih lanjut. Terima kasih.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center bg-gray-100 text-dark hover:bg-primary hover:text-white font-bold py-2 rounded transition text-sm">

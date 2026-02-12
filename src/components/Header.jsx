@@ -7,12 +7,26 @@ export default function Header() {
     <header className="bg-white shadow-md fixed w-full z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <a href="#" className="flex items-center">
+          <a href="#" className="flex items-center gap-2 md:gap-4 group">
             <img
               src="/images/koperlg.png"
               alt="Koper Batam Tour Travel Logo"
-              className="h-24 md:h-32 w-auto object-contain"
+              className="h-20 md:h-24 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
+            <div className="flex flex-col justify-center">
+              {/* Mobile View */}
+              <div className="md:hidden border border-gray-400 rounded px-2 py-1 bg-white/50">
+                <h1 className="text-lg font-bold text-dark leading-tight text-center whitespace-nowrap">
+                  PT KOPERBATAM
+                  <br />
+                  TOUR TRAVEL
+                </h1>
+              </div>
+              {/* Desktop View */}
+              <h1 className="hidden md:block text-xl lg:text-2xl font-bold text-dark tracking-wide group-hover:text-primary transition-colors uppercase">
+                PT Koperbatam Tour Travel
+              </h1>
+            </div>
           </a>
         </div>
         <nav className="hidden md:flex space-x-8">
@@ -30,7 +44,7 @@ export default function Header() {
             </svg>
           </button>
           <a
-            href="https://wa.me/6287821136966?text=Halo,%20saya%20ingin%20booking%20paket%20tour.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih."
+            href="https://wa.me/6289528820556?text=Halo,%20saya%20ingin%20booking%20paket%20tour.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih."
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block bg-primary hover:bg-lime-600 text-white px-5 py-2 rounded-full font-medium transition shadow-lg">Book
@@ -61,7 +75,7 @@ export default function Header() {
             <a href="#about" className="text-gray-600 hover:text-primary transition font-medium" onClick={() => setIsMenuOpen(false)}>About Us</a>
             <a href="#contact" className="text-gray-600 hover:text-primary transition font-medium" onClick={() => setIsMenuOpen(false)}>Contact Us</a>
             <a
-              href="https://wa.me/6287821136966?text=Halo,%20saya%20ingin%20booking%20paket%20tour.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih."
+              href="https://wa.me/6289528820556?text=Halo,%20saya%20ingin%20booking%20paket%20tour.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary hover:bg-lime-600 text-white px-5 py-2 rounded-full font-medium transition shadow-lg text-center"

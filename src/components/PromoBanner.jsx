@@ -6,7 +6,7 @@ export default function PromoBanner() {
         <h2 className="text-3xl md:text-5xl font-bold mb-4">Let's Make Your Best Trip Ever!</h2>
         <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">Make Memories with Koper Batam Tour Travel.</p>
         <a
-          href="https://wa.me/6287821136966?text=Halo,%20saya%20tertarik%20dengan%20promo%20special%20offer.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih."
+          href="https://wa.me/6289528820556?text=Halo,%20saya%20tertarik%20dengan%20promo%20special%20offer.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih."
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white text-lime-600 font-bold py-3 px-10 rounded-full shadow-lg hover:bg-gray-100 transition inline-block transform hover:-translate-y-1">

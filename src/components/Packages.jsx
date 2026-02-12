@@ -647,7 +647,7 @@ export default function Packages() {
                 </div>
 
                 <a
-                  href={`https://wa.me/6287821136966?text=${encodeURIComponent(`Halo, saya ingin booking paket tour: ${pkg.title} (${pkg.duration}). Mohon informasinya lebih lanjut. Terima kasih.`)}`}
+                  href={`https://wa.me/6289528820556?text=${encodeURIComponent(`Halo, saya ingin booking paket tour: ${pkg.title} (${pkg.duration}). Mohon informasinya lebih lanjut. Terima kasih.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center bg-dark text-white font-medium py-4 mt-8 rounded-lg hover:bg-primary transition shadow-lg text-lg">
