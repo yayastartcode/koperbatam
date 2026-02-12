@@ -7,9 +7,13 @@ export default function Header() {
     <header className="bg-white shadow-md fixed w-full z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <div className="text-lg md:text-2xl font-bold text-primary flex items-center whitespace-nowrap">
-            <span className="text-primary mr-1">KOPERBATAM</span> TOUR TRAVEL
-          </div>
+          <a href="#" className="flex items-center">
+            <img
+              src="/images/koperlg.png"
+              alt="Koper Batam Tour Travel Logo"
+              className="h-24 md:h-32 w-auto object-contain"
+            />
+          </a>
         </div>
         <nav className="hidden md:flex space-x-8">
           <a href="#" className="text-gray-600 hover:text-primary transition font-medium">Home</a>
