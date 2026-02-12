@@ -402,7 +402,7 @@ const packages = [
   },
   {
     id: 5,
-    image: 'images/welkam.jpg',
+    image: 'images/masjidbtm.jpg',
     badge: 'Best Value',
     title: 'Paket Tour B (Batam – Bintan)',
     duration: '4 Days 3 Nights',
