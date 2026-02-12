@@ -1,7 +1,7 @@
 export default function PromoBanner() {
   return (
     <section className="py-16 bg-gradient-to-r from-lime-500 to-lime-600 text-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('/tour_bus_scenic.png')] opacity-20 bg-cover bg-fixed"></div>
+      <div className="absolute inset-0 bg-[url('/images/koperlg.png')] opacity-20 bg-cover bg-fixed"></div>
       <div className="container mx-auto px-6 relative z-10 text-center">
         <h2 className="text-3xl md:text-5xl font-bold mb-4">Let's Make Your Best Trip Ever!</h2>
         <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">Make Memories with Koper Batam Tour Travel.</p>
